@@ -1,0 +1,19 @@
+.navbar {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Caviar Dreams Bold;
+  background-color: lightblue;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.link:hover {
+  opacity: 60%;
+}

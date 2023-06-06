@@ -1,0 +1,229 @@
+@font-face {
+  font-family: Lemon Milk;
+  src: url("./fonts/lemon_milk/LEMONMILK-Light.otf");
+}
+
+.livo1 h1,
+.desno2 h1 {
+  font-family: Lemon Milk, Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+.desno1 img,
+.livo2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pocetna {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100%;
+}
+
+.desno1 img {
+  width: 80%;
+  height: 80%;
+}
+
+.livo1 {
+  grid-area: 1 / 1 / 1 / 2;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.livo1 h1,
+.desno2 h1 {
+  font-family: Lemon Milk;
+  font-size: 60px;
+}
+
+button,
+input[type="submit"] {
+  margin-top: 15px;
+  padding: 10px 0px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  padding: 10px 25px;
+}
+
+.livo1 a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.desno1 {
+  grid-area: 1 / 2 / 1 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opcenito {
+  height: 100vh;
+  width: 100%;
+}
+
+.opcenitoo {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+}
+
+.livo2 img {
+  width: 80%;
+  height: 80%;
+}
+
+.livo2 {
+  grid-area: 1 / 1 / 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desno2 {
+  grid-area: 1 / 2 / 1 / 3;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.igraci1 {
+  margin-top: 30px;
+  height: 100vh;
+  width: 100%;
+}
+
+.igracii1 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100%;
+}
+
+.igrac1 {
+  grid-area: 1 / 1 / 1 / 2;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac1 img {
+  width: 450px;
+  height: 670px;
+}
+
+.igrac2 {
+  grid-area: 1 / 2 / 1 / 3;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac2 img {
+  width: 450px;
+  height: 670px;
+}
+
+.igrac3 {
+  grid-area: 1 / 3 / 1 / 4;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac3 img {
+  width: 450px;
+  height: 670px;
+}
+
+.igraci2 {
+  height: 100vh;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.igracii2 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100%;
+}
+
+.igrac4 {
+  grid-area: 1 / 1 / 1 / 2;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac4 img {
+  width: 450px;
+  height: 670px;
+}
+
+.igrac5 {
+  grid-area: 1 / 2 / 1 / 3;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac5 img {
+  width: 450px;
+  height: 670px;
+}
+
+.igrac6 {
+  grid-area: 1 / 3 / 1 / 4;
+  margin: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.igrac6 img {
+  width: 450px;
+  height: 670px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  padding: 15px;
+  font-family: Lemon Milk, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 36px;
+  backdrop-filter: blur(4px);
+}
+
+.text1 p,
+.text2 p,
+.text3 p,
+.text4 p,
+.text5 p,
+.text6 p {
+  border-bottom: 3px solid blue;
+}
