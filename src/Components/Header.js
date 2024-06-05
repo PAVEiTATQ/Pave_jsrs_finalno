@@ -15,6 +15,9 @@ export default function Header() {
         <Link className="link" to="/Danasnja_karta">
           Karta
         </Link>
+        <Link className="link" to="/Tema">
+          Tema
+        </Link>
       </div>
     </div>
   );

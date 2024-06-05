@@ -1,0 +1,43 @@
+body {
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  color: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}

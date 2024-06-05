@@ -42,6 +42,7 @@ export default function Danasnja_karta({ Danasnja_karta }) {
               <td>
                 <form action="">
                   <input type="text" name="ime" id="ime"></input>
+                  {/* <input type="submit">Unesi</input> */}
                 </form>
               </td>
             </tr>
