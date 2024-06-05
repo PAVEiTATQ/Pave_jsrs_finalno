@@ -3,8 +3,8 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Opcenito from "./Components/Opcenito";
 import Igraci from "./Components/Igraci";
 import Karte from "./Components/Karta";
+import Tema from "./Components/Tema";
 import React, { useState, useEffect } from "react";
-import "./App.css";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -27,17 +27,18 @@ export default function App() {
           <Route path="/" element={<Opcenito />}></Route>
           <Route path="/Igraci" element={<Igraci />}></Route>
           <Route path="/Danasnja_karta" element={<Karte />}></Route>
+          <Route path="/Tema" element={<Tema />}></Route>
         </Routes>
       </Router>
 
-      <div className="App">
+      {/* <div className="App">
         <header className="App-header">
           <h1>{darkMode ? "Dark Mode" : "Light Mode"}</h1>
           <button onClick={toggleDarkMode}>
             Toggle to {darkMode ? "Light" : "Dark"} Mode
           </button>
         </header>
-      </div>
+      </div> */}
     </div>
   );
 }
