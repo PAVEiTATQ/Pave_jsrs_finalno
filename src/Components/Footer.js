@@ -1,8 +1,7 @@
 import "../styles.css";
 import "./footer.css";
 import teren from "./slikicee/chase.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import ig from "./slikicee/ig.jpg";
 
 export default function Footer() {
   return (
@@ -17,7 +16,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
+              <img src={ig} alt="Instagram" width="30" height="30" />
             </a>
           </div>
           <div class="desno">
