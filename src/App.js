@@ -30,15 +30,6 @@ export default function App() {
           <Route path="/Tema" element={<Tema />}></Route>
         </Routes>
       </Router>
-
-      {/* <div className="App">
-        <header className="App-header">
-          <h1>{darkMode ? "Dark Mode" : "Light Mode"}</h1>
-          <button onClick={toggleDarkMode}>
-            Toggle to {darkMode ? "Light" : "Dark"} Mode
-          </button>
-        </header>
-      </div> */}
     </div>
   );
 }
