@@ -1,7 +1,7 @@
 import "../styles.css";
 import "./footer.css";
 import teren from "./slikicee/chase.jpg";
-import ig from "./slikicee/ig.jpg";
+import ig from "./slikicee/ig.png";
 
 export default function Footer() {
   return (
@@ -9,8 +9,7 @@ export default function Footer() {
       <div class="footer">
         <div class="footerr">
           <div class="livo">
-            <h3>Golden State Warriors</h3>
-            <p>©Copyright - Pave Petar Vitaljić</p>
+            <h3>Golden State Warriors</h3>{" "}
             <a
               href="https://www.instagram.com/warriors/"
               target="_blank"
@@ -18,6 +17,7 @@ export default function Footer() {
             >
               <img src={ig} alt="Instagram" width="30" height="30" />
             </a>
+            <p>©Copyright - Pave Petar Vitaljić</p>
           </div>
           <div class="desno">
             <img src={teren} alt="teren"></img>

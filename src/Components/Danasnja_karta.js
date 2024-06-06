@@ -7,6 +7,17 @@ import "./karta.css";
 import qr from "./slikicee/frame.png";
 import logoo from "./slikicee/logoo1.jpg";
 
+const counter = useRef(0);
+const [counter2, setCounter] = useState(0);
+useEffect(() => {
+  counter.current = counter.current + 1;
+  setCounter((counter2) => counter2 + 1);
+}, [output]);
+useEffect(() => {
+  counter.current = 0;
+  setCounter(0);
+}, []);
+
 const Broj_sjedala = () => {
   return Math.floor(Math.random() * 18064) + 1;
 };
@@ -34,7 +45,7 @@ export default function Danasnja_karta({ Danasnja_karta }) {
     <div className="Danasnja_karta">
       <Glava />
       <center>
-        <h2>Broj kupljenih karata: </h2>
+        <h2>Broj kupljenih karata: {counter.current}</h2>
         <form onSubmit={handleSubmit}>
           <div className="karta">
             <div className="header">
@@ -80,7 +91,6 @@ export default function Danasnja_karta({ Danasnja_karta }) {
         </form>
         {karta.map((karta, index) => (
           <div className="karta" key={index}>
-            console.log(index);
             <div className="header">
               <img
                 src={logoo}
