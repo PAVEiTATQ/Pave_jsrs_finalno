@@ -3,10 +3,10 @@ import Danas from "./Danasnja_karta";
 
 export default function Karta() {
   let karta = {
-    datum: "6.6.2023",
+    datum: "6.6.2024",
     vrime: "14:00",
     stadion: "Chase Center",
-    sjedalo: "Sekcija 100, Red 7, Sjedalo 12"
+    sjedalo: "",
   };
 
   return (
